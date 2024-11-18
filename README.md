@@ -5,6 +5,8 @@
 Please ensure you have the following prerequisites:
 
 - Python 3.10+
+- pandas
+- matplotlib.pyplot 
 
 Once you have Python 3.10 or higher, you can proceed with the following installation steps:
 
