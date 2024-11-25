@@ -18,12 +18,15 @@ def sidebar():
 
             html.Ul([
                 html.Li(html.A("Home", href="/home", style={"display": "block", "padding": "10px", "text-decoration": "none"})),
+                html.Li(html.A("Data analysis", href="/Data analysis", style={"display": "block", "padding": "10px", "text-decoration": "none"})),
+                html.Li(html.A("NISR", href="/NISR", style={"display": "block", "padding": "10px", "text-decoration": "none"})),
+                html.Li(html.A("UPPDATE", href="/UPDATE", style={"display": "block", "padding": "10px", "text-decoration": "none"})),
             ], className="nav", style={"list-style": "none", "padding": "0", "margin": "0"})
         ], 
         className="sidebar", 
         style={
             "width": "200px", 
-            "background-color": "#f8f9fa", 
+            "background-color": "darkseagreen", 
             "padding": "10px", 
             "height": "100vh",  
             "position": "fixed", 
@@ -32,6 +35,14 @@ def sidebar():
             "box-shadow": "2px 0 5px rgba(0, 0, 0, 0.1)",  
             "z-index": "1000"
         })
-    ])
+        
+    
+        
+
+
+
+
+
+ ])
 
 
